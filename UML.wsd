@@ -1,0 +1,10 @@
+@startuml
+:User: --> (PM)
+:User: --> (login)
+:User: --> (register)
+"Project Management" as (PM)
+"Login" as (login)
+"Register" as (register)
+"Add project" as (ap)
+(ap) .> (PM) : extends
+@enduml
